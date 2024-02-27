@@ -27,11 +27,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Todo List App</h1>
+      <h1>Shopping List</h1>
 
       <input
         type="text"
-        placeholder="Add new item ..."
+        placeholder="Add shopping item ..."
         value={newItem}
         onChange={e=>setNewItem(e.target.value)}
       />
